@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Trabalhando com formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+       <fieldset>
+          <legend>Dados pessoais</legend>
+            <p>
+                 <label for="inome">Nome</label>
+                 <input type="text" name="nome" id="inome" minlength="5"
+                 maxlength="30" autocomplete="name" required placeholder="Digite seu nome">
+            </p>
+            <p>
+                 <label for="itel">Telefone</label>
+                 <input type="tel" name="tel" id="itel" pattern="^\(\d{2}\)\d{4,5}-\d{4}$" required placeholder="(xx) xxxx-xxxx">
+                 <!-- ^[0-9]{4}-[0-9]{4}$ -->
+            </p>
+            <!-- Estudar mais sobre expressões regulares -->
+            <p>
+                 <label for="iemai">E-mail</label>
+                 <input type="email" name="email" id="iemail" required placeholder="Digite seu e-mail">
+            </p>
+       </fieldset>
+       <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="LImpar">
+       </p>
+    </form>
+</body>
+</html>

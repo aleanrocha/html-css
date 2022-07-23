@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
+    <title>Imagem</title>
+</head>
+<body>
+   <h1>Imagem flexível</h1> 
+   <p>você verá abaixo uma imagem flexível, que se adapta ao tamanho, da sua tela.</p>
+   <picture>
+       <source media="(max-width: 750px)" srcset="Imagens/P.png" type="image/png">
+       <source media="(max-width: 1050px)" srcset="Imagens/M.png" type="image/png">
+       <img src="Imagens/G.png" alt="imagem flexível">
+   </picture>
+   <h2>Reproduzindo aúdio</h2>
+   <p>Vamos aprender a reproduzir aúdio em HTML 5.</p>
+   <audio src="Áudio/4 - Preciso Entender (Ao Vivo).mp3" controls preload="metadata"></audio>
+   <p>Veja abaixo outro exemplo de áudio</p>
+   <audio controls preload="metadata" loop>
+       <source src="Áudio/a-vida-e-um-rio-versao-novela-salve-se-quem-puder 2.mp3" type="audio/mpeg">
+       <source src="Áudio/a-vida-e-um-rio-versao-novela-salve-se-quem-puder 2.ogg" type="audio/ogg">
+       <source src="Áudio/a-vida-e-um-rio-versao-novela-salve-se-quem-puder 2.wav" type="audol/wav">
+       <p>Seu navegador não e suporta este tipo de áudio,<a href="Áudio/a-vida-e-um-rio-versao-novela-salve-se-quem-puder 2.mp3" download="a-vida-e-um-rio-versao-novela-salve-se-quem-puder 2.mp3" type="audio/mpeg"> clique aqui</a>, para fazer o download.</p>
+   </audio>
+</body>
+</html>

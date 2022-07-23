@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tabela completa</title>
+	<style>
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+		}
+		table {
+			border-collapse: collapse;
+		}
+		caption {
+			background-color: gray;
+			border-top-left-radius: 10px;
+			border-top-right-radius: 10px;
+			font-size: 1.5em;
+			font-weight: bolder;
+			padding: 10px;
+		}
+		tr, td {
+			border: 1px solid black;
+			padding: 10px;
+			text-align: center;
+		}
+		th {
+			background-color: darkblue;
+			color: white;
+			padding: 10px;
+		}
+		th.especial {
+			background-color: lightblue;
+			color: black;
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+	<table>
+		<caption>
+			Filmes Favoritos
+		</caption>
+		<thead>
+			<tr>
+				<th scope="col">Grupos</th>
+				<th scope="col"h>Nomes</th>
+				<th scope="colgrup" colspan="3">Filmes</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th rowspan="3" class="especial" scope="rowgroup">Mulheres</th>
+				<td>Ana Mária Santos</td>
+				<td>Look</td>
+				<td>Dr.estranho</td>
+				<td>Rambo</td>
+			</tr>
+			<tr>
+				<td>Beatriz souza</td>
+				<td>Hulk</td>
+				<td>Matrix</td>
+				<td>Batman</td>
+			</tr>
+			<tr>
+				<td>Cláudia melo</td>
+				<td>Tor</td>
+				<td>Vingadores</td>
+				<td>Big hero</td>
+			</tr>
+			<tr>
+				<th rowspan="3" class="especial" scope="rowgroup">Homens</th>
+				<td>Bruno Mendonça</td>
+				<td>Star Wars</td>
+				<td>Super men</td>
+				<td>Flesh</td>
+			</tr>
+			<tr>
+				<td>Pedro Nobre</td>
+				<td>Homem Aranha</td>
+				<td>Homen de Ferro</td>
+				<td>Toy Story</td>
+			</tr>
+			<tr>
+				<td>Vicente Tiringa</td>
+				<td>Gladiador</td>
+				<td>José Aldo</td>
+				<td>Velozes e Furiosos</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>

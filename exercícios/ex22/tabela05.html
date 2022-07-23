@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Exercício</title>
+	<style>
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+		}
+		table {
+			border-collapse: collapse;
+		}
+		caption {
+			font-size: 1.5em;
+			font-weight: bold;
+		}
+		tr, th, td {
+			border: 1px solid black;
+			padding: 10px;
+		}
+		th {
+			background-color: darkcyan;
+			color: white;
+		}
+		col.cor1 {
+			background-color: darkcyan;
+		}
+	</style>
+</head>
+<body>
+	<h1>Agrupando colunas com colgroup</h1>
+	<table>
+		<caption>
+			Cadastro
+		</caption>
+		<colgroup>
+			<col class="cor1">
+			<col>
+			<col>
+			<col class="cor1">
+		</colgroup>
+		<tr>
+			<th scope="row">Nome</th>
+			<th scope="row">Sexo</th>
+			<th scope="row">Idade</th>
+			<th scope="row">Profissão</th>
+		</tr>
+		<tr>
+			<td>Pedro</td>
+			<td>M</td>
+			<td>27</td>
+			<td>Professor</td>
+		</tr>
+		<tr>
+			<td>Marcelo</td>
+			<td>M</td>
+			<td>34</td>
+			<td>Jornalista</td>
+		</tr>
+		<tr>
+			<td>Bruna</td>
+			<td>F</td>
+			<td>23</td>
+			<td>Vendedora</td>
+		</tr>
+		<tr>
+			<td>Manuela</td>
+			<td>F</td>
+			<td>37</td>
+			<td>Enfermeira</td>
+		</tr>
+		<tr>
+			<td>Lucas</td>
+			<td>M</td>
+			<td>29</td>
+			<td>Frentista</td>
+		</tr>
+		<tr>
+			<td>Gustavo</td>
+			<td>M</td>
+			<td>41</td>
+			<td>Progamador</td>
+		</tr>
+		<tr>
+			<td>Fernanada</td>
+			<td>F</td>
+			<td>31</td>
+			<td>Dentista</td>
+		</tr>
+		<tr>
+			<td>Caroline</td>
+			<td>F</td>
+			<td>26</td>
+			<td>Diarista</td>
+		</tr>
+	</table>
+</body>
+</html>

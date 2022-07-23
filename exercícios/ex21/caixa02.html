@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Gruping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightskyblue;
+        }
+        ::-webkit-scrollbar{
+            width: 12px;
+        }
+        ::-webkit-scrollbar-track{
+          background-color: white; 
+        }
+        ::-webkit-scrollbar-button{
+            background-color: rgb(12, 12, 39);
+        }
+        ::-webkit-scrollbar-thumb{
+          background-image: linear-gradient(to bottom, #59897B, #A8C6BC);  
+          border-radius: 12px;
+        }
+        ::-webkit-scrollbar-thumb:hover{
+            background-color: cyan;
+        }
+        h1{
+            text-align: center;
+        }
+        header{
+            background-color: lightgray;
+            
+        }
+        nav{
+            color: darkblue;
+           
+        }
+        nav > a{
+             text-decoration: none;
+             padding: 10px;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: red;
+        }
+        section{
+            background-color: white;
+            border-radius: 5px;
+            
+        }
+        section#assunto{
+            width: 600px;
+            height: 280px;
+            box-shadow: 1px 1px 2px black;
+        }
+        section > p{
+            margin: 5px;
+            text-align: justify;
+        }
+        section > article{
+            margin: 5px;
+
+        }
+        .justificado{
+            text-align: justify;
+        }
+        aside{
+            background-color: lightgray;
+            
+        }
+        aside > p{
+            margin: px;
+            padding: 5px;
+        }
+        footer{
+            background-color: rgb(26, 26, 82);
+            color: white;
+            text-align: center;
+            padding: 6px;
+           
+        }
+        footer > p{
+            margin: 0pc;
+        }
+        div#d1{
+            background-color: white;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin: 10px auto;
+
+        }
+        
+    </style>
+</head>
+<body>
+        <img src="pexels-waqas-ahmed-1696605.jpg" alt="">
+    <header>
+        <h1>Meu primeiro síte em HTML5</h1>
+        <nav>
+            <a href="#">Menu 1</a>
+            <a href="#">Menu 2</a>
+            <a href="#">Menu 3</a>
+            <a href="#">Menu 4</a>
+            <a href="#">Menu 5</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assunto">
+            <h2>Principais eventos que vão acontecer no Brasil</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero veniam illo velit eum itaque ducimus, dolores facilis maiores autem voluptates nesciunt. Voluptates eaque ea natus. Velit incidunt unde officia! Enim. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe accusantium aliquam nemo voluptatum laudantium porro perspiciatis consectetur officiis inventore, magnam quas corporis rem ab, tempore animi ad praesentium? Repellat, aliquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum praesentium id ad tenetur dolorem deserunt quas veniam. Explicabo atque ipsam ex voluptates laboriosam, porro veritatis quasi accusantium sequi adipisci doloribus!</p>
+        </section>
+        <section id="notícias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p class="justificado">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nam non enim, sit praesentium rem nisi placeat neque, eaque dicta sunt velit nostrum commodi ea voluptatum, laudantium itaque atque voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime et assumenda, consequatur adipisci repellat possimus alias voluptas, quibusdam modi ipsam, voluptatum perspiciatis perferendis laboriosam consequuntur labore doloribus quasi ex rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci inventore sit nostrum debitis dignissimos esse recusandae voluptatibus incidunt! Fugiat, quam magni. Dignissimos deserunt unde porro voluptatum incidunt asperiores dolorum consequatur.</p>
+            </article>
+            <aside>
+                <p>Artigo escrito por gustavo guanabara</p>
+            </aside>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por mim</p>
+    </footer>
+    <div id="d1"></div>
+</body>
+</html>
