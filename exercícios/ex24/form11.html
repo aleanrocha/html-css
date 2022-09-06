@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Trabalhando com formulários</h1>
+    <form action="login.php" method="get" autocapitalize="on">
+        <p>
+            <label for="inas">Ano de nascimento:</label>
+            <input type="number" name="nas" id="inas" min="1900" max="2022" required oninput="calcidade()">            
+        </p>
+        <p>
+            <label for="idade">Idade:</label>
+            <output id="idade">0</output>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="LImpar">
+        </p>
+    </form>
+    <script>
+        function calcidade() {
+            var atual = new Date().getFullYear()
+            idade.innerHTML = Number(atual) - Number(inas.value)
+        }
+    </script>
+</body>
+</html>
