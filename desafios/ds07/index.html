@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Desafio da imagens flexível</title>
+</head>
+<body>
+    <h1>Imagens flexíveis</h1>
+    <p>Você verá abaixo um exemplo de imagem flexível que se adapta ao tamanho da tela.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="paisagem-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="paisagem-m.png" type="image/png">
+        <img src="paisagem-g.png" alt="Paisagem">
+    </picture>
+</body>
+</html>
